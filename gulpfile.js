@@ -21,7 +21,7 @@ gulp.task('sass', function  () {
     .pipe(sass(sassOptions).on('error', sass.logError))
     .pipe(autoprefixer({browsers: ['last 2 versions']}))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('./styles/site.css'));
+    .pipe(gulp.dest('./styles/'));
 });
 
 gulp.task('watch', function () {
