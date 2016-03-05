@@ -6,6 +6,7 @@ Website for the Ad Astra School
 Install packages:
 
 `$ npm install`
+
 `$ bower install`
 
 To run squarespace locally, we're using [node-squarespace-server](https://github.com/NodeSquarespace/node-squarespace-server)
