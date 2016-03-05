@@ -1,0 +1,185 @@
+
+
+
+/* CSS pre-processing by {less}. http://lesscss.org/
+***************************************************/
+
+
+
+/* Mobile first
+***************************************************/
+
+body {
+  color: @bodyColor;
+  .body-font;
+}
+
+a {
+  color: @linkColor;
+}
+
+.container {
+  max-width: @siteMaxWidth;
+  margin: 0 auto;
+  padding: 100px 15px;
+}
+
+.header {
+
+}
+
+.site-title {
+  a {
+    color: @siteTitleColor;
+    padding-left: @site-title-font-letter-spacing;
+    .site-title-font;
+  }
+}
+
+.main-navigation {
+
+}
+
+  .main-navigation-list {  
+    padding-left: 0;
+  }
+    
+    .main-navigation-item {
+      display: inline-block;
+
+      a {
+        color: @navColor;
+        .nav-font;
+
+        &:hover {
+          color: @navActiveColor;
+        }
+      }
+
+      &:not(:last-child) {
+        margin-right: .5em;
+      }
+
+      &.active-link > a {
+        color: @navActiveColor;
+      }
+
+      &.active-folder > a {
+        color: orange;
+      }
+
+      /* Folder Dropdowns */
+
+      .main-navigation-dropdown {
+        display: none;
+      }
+
+      &:hover > .main-navigation-dropdown {
+        display: inline-block;
+      }
+    }
+
+.footer {
+
+}
+
+
+
+/* Homepage
+***************************************************/
+
+.homepage { }
+
+
+
+/* Break grid and stack blocks on small screens
+***************************************************/
+
+@media screen and (max-width: 48em) {
+  @import 'sqs-grid-breaker';
+}
+
+
+
+/* Beyond mobile
+***************************************************/
+
+@media screen and (min-width: 48em) { }
+
+
+
+/* Style Editor Tweaks
+***************************************************/
+
+/*
+  These tweaks make up your site's style
+  editor. For more information on creating
+  tweaks, see:
+
+  https://developers.squarespace.com/style-editor/
+*/
+
+// tweak: { "type" : "font", "title" : "Site Title", "category" : "Typography", "target" : ".site-title", "loadAllVariants" : false }
+.site-title-font {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3em;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+// tweak: { "type" : "color", "title" : "Site Title Color", "category" : "Typography", "target" : ".site-title" }
+@siteTitleColor: #000000;
+
+
+// tweak: { "type" : "font", "title" : "Body", "category" : "Typography", "target" : ".container", "loadAllVariants" : true }
+.body-font {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+}
+
+
+// tweak: { "type" : "color", "title" : "Body Color", "category" : "Typography", "target" : ".container" }
+@bodyColor: #000000;
+
+
+// tweak: { "type" : "color", "title" : "Link Color", "category" : "Typography", "target" : ".content a" }
+@linkColor: cornflowerblue;
+
+
+// tweak: { "type" : "font", "title" : "Navigation", "category" : "Typography", "target" : ".main-navigation", "loadAllVariants" : false }
+.nav-font {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+// tweak: { "type" : "color", "title" : "Navigation Color", "category" : "Typography", "target" : ".main-navigation" }
+@navColor: #000000;
+
+
+// tweak: { "type" : "color", "title" : "Navigation Active Color", "category" : "Typography", "target" : ".main-navigation .active-link" }
+@navActiveColor: #999999;
+
+
+// tweak: { "type" : "value", "title" : "Site Max Width", "min" : 30, "max" : 70, "category" : "Values", "target" : ".container" }
+@siteMaxWidth: 42em;
+
+// tweak:{ "category": "Options", "title": "Header Alignment", "type": "dropdown", "options": ["Left", "Center", "Right"], "default": "Center", "target" : ".header" }
+.header-alignment-center .header { text-align: center; }
+.header-alignment-right  .header { text-align: right;  }
+

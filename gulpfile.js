@@ -15,13 +15,13 @@ var sassOptions = {
 };
 
 // Gulp Sass Task
-gulp.task('sass', function() {
+gulp.task('sass', function  () {
   gulp.src(sources.sass)
     .pipe(sourcemaps.init())
     .pipe(sass(sassOptions).on('error', sass.logError))
     .pipe(autoprefixer({browsers: ['last 2 versions']}))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('./styles/'));
+    .pipe(gulp.dest('./styles/site.css'));
 });
 
 gulp.task('watch', function () {

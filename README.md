@@ -9,6 +9,7 @@ Install packages:
 
 `$ bower install`
 
+
 To run squarespace locally, we're using [node-squarespace-server](https://github.com/NodeSquarespace/node-squarespace-server)
 
 ```
@@ -24,3 +25,7 @@ sqs server --port=8000
 # Bust local cache
 sqs buster
 ```
+
+## Gulp Commands
+
+`$ gulp` - this will watch all sass files in `/custom/styles` and transpile them to css in `/styles/site.css`
