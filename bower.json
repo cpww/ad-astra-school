@@ -1,0 +1,23 @@
+{
+  "name": "ad-astra-school",
+  "description": "Website for the Ad Astra School",
+  "main": "index.js",
+  "authors": [
+    "PWW"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/cpww/ad-astra-school",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12",
+    "breakpoint-sass": "compass-breakpoint#^2.7.0"
+  }
+}

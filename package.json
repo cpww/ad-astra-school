@@ -1,0 +1,26 @@
+{
+  "name": "ad-astra-school",
+  "version": "1.0.0",
+  "description": "Website for the Ad Astra School",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cpww/ad-astra-school.git"
+  },
+  "author": "PWW",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cpww/ad-astra-school/issues"
+  },
+  "homepage": "https://github.com/cpww/ad-astra-school",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "node-squarespace-server": "^0.4.22"
+  }
+}
