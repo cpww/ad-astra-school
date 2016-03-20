@@ -19,7 +19,9 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
+    "gulp-replace-task": "^0.11.0",
     "gulp-sass": "^2.2.0",
+    "gulp-shell": "^0.5.2",
     "gulp-sourcemaps": "^1.6.0",
     "node-squarespace-server": "^0.4.22"
   }
