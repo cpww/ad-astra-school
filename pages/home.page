@@ -1,0 +1,171 @@
+<header class="header">
+  <div class="clearfix max-width-4 mx-auto py2 px2">
+    <h1 class="site-title">
+      <a href="/">
+        <img src="https://placeholdit.imgix.net/~text?txtsize=13&txt=150%C3%9750&w=150&h=50" alt="Ad Astra School" class="logo rounded fit">
+      </a>
+    </h1>
+
+    <nav class="main-navigation">
+      <ul class="main-navigation-list">
+        <li class="main-navigation-item">
+          <a href="#" class="text-decoration-none">For Parents</a>
+        </li>
+
+        <li class="main-navigation-item">
+          <a href="#" class="text-decoration-none">Meet the teachers</a>
+        </li>
+
+        <li class="main-navigation-item">
+          <a href="#" class="text-decoration-none">Blog</a>
+
+        </li>
+
+        <li class="main-navigation-item">
+          <a href="#" class="text-decoration-none">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Welcome/Intro/Hero/Lead/CTA -->
+<!-- What is the Call to Action? Contact? Learn More? -->
+<section class="hero">
+  <div class="clearfix max-width-3 mx-auto py2 px2 center">
+    <div class="sm-col">
+      <h1 class="h2">Ad Astra School offers an unparalled academic experience, focused on helping children achieve their highest potential.</h1>
+      <h2 class="h4">Our innovate cirriculum is tailored to meet the needs of each student, by investing in their passions and strengths</h2>
+      <button class="btn">Learn More</button>
+    </div>
+
+<!--     <div class="sm-col col-12 sm-col-5 pt2 xs-hide">
+      <img src="assets/video-player-thin.svg" alt="learn-more" class="fit">
+      <img src="https://placeholdit.imgix.net/~text?txtsize=38&txt=400%C3%97300&w=400&h=300" alt="" class="rounded fit">
+    </div> -->
+  </div>
+</section>
+
+<section class="callout bg-white-offset border-top border-bottom">
+  <blockquote class="clearfix max-width-4 mx-auto py2 c-slate">
+    <p class="m0 center">“With first principles you boil things down to the most fundamental truths...and then reason up from there.”<cite>&mdash; Elon Musk</cite></p>
+  </blockquote>
+</section>
+
+<main class="max-width-4 mx-auto px2">
+  <h3>About the School</h3>
+  <hr>
+  <p>Ad Astra, meaning to the stars, helps children unlock their full potential by promoting a love of learning, curiosity and unbounded imagination. Our methods are deeply rooted in multidisciplinary problem solving and reasoning through first principles. Teaching students to focusing on the fundamental truths of a problem help them develop their own problem solving techniques, rather than using someone elses mental model.</p>
+  <p>We understand that everyone learns differently. Our cirriculum is designed to be both challenging and autonomous. We treat all of our students with respect and trust. In exchange, we expect them to be accountable for everything they do.</p>
+  <p></p>
+  <button class="btn">Learn More</button>
+
+  <h3>Our Core Values</h3>
+  <hr>
+  <ul class="clearfix list-reset center">
+    <li class="sm-col sm-col-4">
+      <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97200&w=200&h=200" alt="" class="circle">
+      <p><strong>Curiosity</strong> of the observable and imperceptible</p>
+    </li>
+
+    <li class="sm-col sm-col-4">
+      <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97200&w=200&h=200" alt="" class="circle">
+      <p><strong>Empathy</strong> to feel, act, and create for others</p>
+    </li>
+
+    <li class="sm-col sm-col-4">
+      <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97200&w=200&h=200" alt="" class="circle">
+      <p><strong>Resourcefulness</strong> to act purposefully</p>
+    </li>
+
+    <li class="sm-col sm-col-4">
+      <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97200&w=200&h=200" alt="" class="circle">
+      <p><strong>Grit</strong> to persevere through challenges</p>
+    </li>
+
+    <li class="sm-col sm-col-4">
+      <img src="https://placeholdit.imgix.net/~text?txtsize=19&txt=200%C3%97200&w=200&h=200" alt="" class="circle">
+      <p><strong>Conviction</strong> to seek truth and progress</p>
+    </li>
+  </ul>
+
+
+
+
+  <!-- Who we are / Core values-->
+<!--   <h3 class="h2">Core Values</h3>
+  <hr>
+
+  <h3>What makes us different?</h3>
+  <ul>
+    <li>Children are grouped according to age, not ability</li>
+    <li></li>
+  </ul>
+
+  <h2>Ad Astra is committed to developing an unparalleled academic experience.</h2>
+  <hr>
+  <p>We believe in developing future leaders through multidisciplinary problem solving and reasoning through first principles.</p>
+  <p>Ad Astra believes in promoting a love of learning, enduring curiosity, and unbounded imagination.</p>
+  <p>Ad Astra is a laboratory school that embraces advancements in the scientific, technological, and education community.</p>
+  <p>Ad Astra is dedicated to pushing each student to the frontier of his or her human potential. Ad Astra is committed to the development of good character.</p>
+  <p>Ad Astra is committed to tailoring curriculum to meet the needs of each individual by investing in his or her passions and strengths.</p>
+
+  <ul>
+    <li><strong>Curiosity</strong> of the observable and imperceptible</li>
+    <li><strong>Empathy</strong> to feel, act, and create for others</li>
+    <li><strong>Resourcefulness</strong> to act purposefully</li>
+    <li><strong>Grit</strong> to persevere through challenges</li>
+    <li><strong>Conviction</strong> to seek truth and progress</li>
+  </ul> -->
+
+  <!-- Day in the life -->
+
+  <!-- Current Parents/Students ()-->
+  <!-- SpaceX Employee (learn about the school, day in the life, how much does it cost, etc.)-->
+  <!-- Educator (sign up for newsletter, give a lecture, etc.) -->
+  <!-- <div class="clearfix">
+    <h3>Where we're located</h3>
+
+    <div class="sm-col col-12 sm-col-7">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt ipsa, corrupti quibusdam possimus ea, laudantium nemo adipisci, voluptatem culpa obcaecati ab. Nam eligendi, dolorum, excepturi esse ullam iusto distinctio. Quaerat.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ad sint, maxime voluptatum. Voluptatibus maxime animi vel laborum aspernatur harum quas fuga perferendis molestias fugiat. Quasi repellat dicta necessitatibus accusamus.</p>
+    </div>
+
+    <div class="sm-col col-12 sm-col-5">
+      <img src="https://placeholdit.imgix.net/~text?txtsize=13&txt=400%C3%97300&w=400&h=300" alt="Ad Astra School Location: " class="fit">
+    </div>
+  </div> -->
+
+  <!-- Frequently Asked Questions? -->
+
+</main>
+
+<footer class="footer">
+  <div class="clearfix max-width-4 mx-auto py2 px2 center">
+    <img src="https://placeholdit.imgix.net/~text?txtsize=13&txt=150%C3%9750&w=150&h=50" alt="Ad Astra School" class="logo rounded">
+    <p class="c-white">&copy; 2016 Ad Astra School</p>
+
+    <ul>
+      <li class="main-footer-item">
+        <a href="#" class="text-decoration-none">For Parents</a>
+      </li>
+
+      <li class="main-footer-item">
+        <a href="#" class="text-decoration-none">Meet the Teachers</a>
+      </li>
+
+      <li class="main-footer-item">
+        <a href="#" class="text-decoration-none">Get Involved</a>
+      </li>
+
+      <li class="main-footer-item">
+        <a href="#" class="text-decoration-none">Blog</a>
+      </li>
+
+      <li class="main-footer-item">
+        <a href="#" class="text-decoration-none">Contact</a>
+      </li>
+    </ul>
+  </div>
+</footer>
+

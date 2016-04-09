@@ -1,0 +1,18 @@
+// Buttons
+// ========================================
+
+.btn {
+  appearance: none;
+  cursor: pointer;
+  display: inline-block;
+  @include rem(border, 1px solid transparent)
+  @include rem(line-height, 16px);
+  margin: 0;
+  outline: 0;
+  @include rem(padding, 8px 15px);
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
