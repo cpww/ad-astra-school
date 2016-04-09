@@ -1,0 +1,15 @@
+// Footer
+
+.footer {
+  background-color: $slate;
+  text-align: center;
+}
+
+.main-footer-item {
+  display: inline-block;
+  @include rem(margin-right, $gutter-half);
+
+  a {
+    color: $white;
+  }
+}

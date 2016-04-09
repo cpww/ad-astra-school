@@ -1,2 +1,24 @@
-// Vendor
-@import 'node_modules/basscss/basscss.min.css'
+// Vendor Imports
+@import "bower_components/breakpoint-sass/stylesheets/breakpoint";
+
+@import "settings/variables/typography";
+@import "settings/variables/colors";
+@import "settings/variables/layout";
+@import "settings/mixins/rems";
+
+@import "base/reset";
+@import "base/basscss";
+@import "base/layout";
+@import "base/colors";
+@import "base/typography";
+
+@import "components/navigation";
+@import "components/buttons";
+@import "components/footer";
+
+// Remove
+
+#header,
+#footer {
+  display: none;
+}
