@@ -20,3 +20,16 @@ $baseline-xx-large: $baseline-step * 7; // 42px
 
 $border-radius-base: 6px;
 $border-radius-mini: 4px;
+
+// Breakpoints
+$palm-small:  400px;
+$palm-medium: 480px;
+$palm-large:  560px;
+
+$lap-small:   685px;
+$lap-medium:  768px;
+$lap-large:   960px;
+
+$desk-small:  1040px;
+$desk-medium: 1280px;
+$desk-large:  1440px;

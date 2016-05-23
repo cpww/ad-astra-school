@@ -9,35 +9,47 @@
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
 
-    <div class="container">
+    <div class="container clearfix">
+      <header id="header" class="header clearfix">
+        <div class="max-width-4 mx-auto">
+          <!--Site title or logo.-->
+          {.section website}
 
-      <header id="header" class="header">
-        <!--Site title or logo.-->
-        {.section website}
+            <h1 class="site-title" data-content-field="site-title">
+              <a href="/">
+                {.section logoImageUrl}
+                 <img class="logo" src="{logoImageUrl}?format=original" alt="{siteTitle}" />
+                {.or}
+                  {siteTitle}
+                {.end}
+              </a>
+            </h1>
 
-          <h1 class="site-title" data-content-field="site-title">
-            <a href="/">
-              {.section logoImageUrl}
-               <img class="logo" src="{logoImageUrl}?format=original" alt="{siteTitle}" />
-              {.or}
-                {siteTitle}
+            {.section collection}
+              {.section mainImage}
+                <div class="image-container content-fill">
+                  <img {@|image-meta}>
+                </div>
               {.end}
-            </a>
-          </h1>
-          
-          <!--Site tagline.-->
-          {.section siteTagLine}
-            <p class="site-tagline">{@}</p>
+            {.end}
+
+            <!--Site tagline.-->
+            {.section siteTagLine}
+              <p class="site-tagline">{@}</p>
+            {.end}
+
           {.end}
 
-        {.end}
+          <!-- Menu -->
+          <a href="#" class="toggle-menu" id="toggle-menu">Menu</a>
 
-        <!--Main navigation.-->
-        <squarespace:navigation navigationId="mainNav" template="navigation" />
+          <!--Main navigation.-->
+          <squarespace:navigation navigationId="mainNav" template="navigation" />
+        </div>
       </header>
 
       <!--Content injection point.-->
-      <main id="content" class="content" role="main" data-content-field="main-content">
+      <main id="content" class="content clearfix overflow-hidden max-width-4 mx-auto" role="main" data-content-field="main-content">
        {squarespace.main-content}
       </main>
 
@@ -53,6 +65,6 @@
 
     <!--Injection point for tracking scripts and user content from the code injection tab.-->
     {squarespace-footers}
-    
+
   </body>
-</html> 
+</html>

@@ -34,4 +34,15 @@
 
   // The event subscription that reloads images on resize.
   document.addEventListener('resize', loadAllImages);
+
+  var toggleMenu = document.getElementById('toggle-menu');
+  var nav = document.getElementById('main-navigation')
+
+  toggleMenu.addEventListener('click', function() {
+    toggleMenu.classList.toggle('active');
+    nav.classList.toggle('active');
+  });
+
 }());
+
+
