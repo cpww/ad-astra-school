@@ -1,0 +1,84 @@
+// Typography
+// ========================================
+
+// Scale
+
+@mixin s-giga {
+  @include rem(font-size, $s-giga);
+  @include rem(line-height, $baseline-step * 12);
+}
+
+@mixin s-mega {
+  @include rem(font-size, $s-mega);
+  @include rem(line-height, $baseline-step * 9);
+}
+
+
+@mixin s-alpha {
+  @include rem(font-size, $s-alpha);
+  @include rem(line-height, $baseline-xx-large);
+}
+
+@mixin s-bravo {
+  @include rem(font-size, $s-bravo);
+  @include rem(line-height, $baseline-large);
+}
+
+
+@mixin s-charlie {
+  @include rem(font-size, $s-charlie);
+  @include rem(line-height, $baseline-large);
+}
+
+
+@mixin s-delta {
+  @include rem(font-size, $s-delta);
+}
+
+@mixin s-echo {
+  @include rem(font-size, $s-echo);
+}
+
+@mixin s-foxtrot {
+  @include rem(font-size, $s-foxtrot);
+}
+
+@mixin s-golf {
+  @include rem(font, #{$s-golf}/#{$baseline-small} $font-family-helvetica);
+}
+
+@mixin s-hotel {
+  @include rem(font, #{$s-hotel}/#{$baseline-small} $font-family-helvetica);
+}
+
+// Headings
+
+@mixin h-alpha {
+  @include s-alpha;
+  font-weight: 300;
+}
+
+@mixin h-bravo {
+  @include s-bravo;
+  font-weight: 300;
+}
+
+@mixin h-charlie {
+  @include s-charlie;
+  font-weight: 300;
+}
+
+@mixin h-delta {
+  @include s-delta;
+  font-weight: 400;
+}
+
+@mixin h-echo {
+  @include s-echo;
+  font-weight: 600;
+}
+
+@mixin h-foxtrot {
+  @include s-foxtrot;
+  font-weight: 600;
+}

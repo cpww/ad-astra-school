@@ -1,0 +1,52 @@
+.hero-message {
+  color: $white;
+  position: absolute;
+  text-align: center;
+  z-index: $z-hero;
+  width: 100%;
+}
+
+// .image-container {
+//   width: 100%; /* Full width */
+//   height: 600px; /* Or whatever you want */
+//   position: absolute;
+//   z-index: $z-background; /* Set the z-index to be less than the content on top */
+//   bottom: 0;
+//   top: 0;
+//   right: 0;
+//   left: 0;
+// }
+
+.hero {
+  background-color: $slate;
+  color: $white;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.hero-wrapper {
+  @include center(y);
+  position: relative;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: $s-giga;
+  margin: 0;
+}
+
+.hero-subtitle p strong {
+  font-size: $s-charlie;
+}
+
+.hero-quote {
+  background-color: $white-offset;
+  box-shadow: inset 0 -2px 0 $gray-light;
+  color: $black-offset;
+  overflow: hidden;
+  margin: 0 0 $baseline-large 0;
+  padding: $baseline-x-small 0;
+  text-align: center;
+}

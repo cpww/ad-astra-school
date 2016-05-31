@@ -5,6 +5,7 @@
 @import "settings/variables/colors";
 @import "settings/variables/layout";
 @import "settings/mixins/rems";
+@import "settings/mixins/alignment";
 
 @import "base/reset";
 @import "base/basscss";
@@ -14,5 +15,6 @@
 @import "base/animation";
 
 @import "components/navigation";
+@import "components/hero";
 @import "components/buttons";
 @import "components/footer";

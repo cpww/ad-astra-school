@@ -22,6 +22,7 @@ $border-radius-base: 6px;
 $border-radius-mini: 4px;
 
 // Breakpoints
+
 $palm-small:  400px;
 $palm-medium: 480px;
 $palm-large:  560px;
@@ -33,3 +34,10 @@ $lap-large:   960px;
 $desk-small:  1040px;
 $desk-medium: 1280px;
 $desk-large:  1440px;
+
+// Z-Index
+$z-background: -1;
+$z-foreground: 1;
+$z-hero: 10;
+$z-navigation: 20;
+$z-navigation-toggle: 30;
