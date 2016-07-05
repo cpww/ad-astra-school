@@ -38,11 +38,9 @@
       </header>
 
       {.section collection}
-
         <section class="hero">
           {.section mainImage}
-            <div class="color-overlay"></div>
-            <div class="image-container content-fill">
+            <div class="hero-image">
               <img {@|image-meta}>
             </div>
           {.end}
