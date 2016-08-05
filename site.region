@@ -6,6 +6,8 @@
 
     <!--Include sqs scripts, meta tags, and user content from the code injection tab.-->
     {squarespace-headers}
+    <script   src="https://code.jquery.com/jquery-3.1.0.slim.min.js"   integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8="   crossorigin="anonymous"></script>
+    <link href="https://npmcdn.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
 
@@ -38,7 +40,13 @@
       </header>
 
       {.section collection}
-        <section class="hero">
+        <section class="hero space">
+          <div class="stars"></div>
+          <div class="stars"></div>
+          <div class="stars"></div>
+          <div class="stars"></div>
+          <div class="stars"></div>
+
           {.section mainImage}
             <div class="hero-image">
               <img {@|image-meta}>
@@ -63,7 +71,7 @@
 
       <!--Content injection point.-->
       <main id="content" class="content clearfix overflow-hidden max-width-4 mx-auto" role="main" data-content-field="main-content">
-       {squarespace.main-content}
+        {squarespace.main-content}
       </main>
 
       <!--Footer with open block field.-->
@@ -78,6 +86,5 @@
 
     <!--Injection point for tracking scripts and user content from the code injection tab.-->
     {squarespace-footers}
-
   </body>
 </html>
