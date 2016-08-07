@@ -17,3 +17,78 @@
 .border-right {
   border-right: 1px solid $gray-light;
 }
+
+body {
+  line-height: 1.5;
+}
+
+img {
+  border-radius: $border-radius-base;
+  max-width: 100%;
+}
+
+.main-content .sqs-block.code-block {
+  padding-bottom: 0 !important;
+}
+
+.core-value-wrapper {
+  padding: $baseline-large $gutter-half;
+
+  @include breakpoint($lap-small) {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+.core-value-list {
+  counter-reset: section;
+  @include rem(margin-top, $baseline-x-large);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.core-value-list li {
+  background-color: $white;
+  border-radius: $border-radius-base;
+  box-shadow: inset 0 -2px 0 $gray-light;
+  color: $gray-dark;
+  font-size: $s-delta;
+  font-weight: 300;
+  margin-bottom: $baseline-large;
+  padding-top: $baseline-large;
+  padding-bottom: $baseline-large;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+  @include breakpoint($lap-small) {
+    padding-left: $gutter * 4;
+    text-align: left;
+  }
+
+  &:before  {
+    border: 1px solid $blue;
+    border-radius: 50%;
+    counter-increment: section;
+    content: counter(section);
+    color: $blue;
+    display: block;
+    font-size: $s-alpha;
+    font-weight: 500;
+    margin-right: $gutter-half;
+    margin-bottom: $baseline-x-small;
+    text-align: center;
+    width: 55px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include breakpoint($lap-small) {
+      display: inline-block;
+      left: $gutter;
+      margin-right: 0;
+      position: absolute;
+      top: 15px;
+    }
+  }
+}
