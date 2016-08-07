@@ -1,5 +1,9 @@
 // Footer
 
 .footer {
-  display: none;
+  background-color: $slate-dark;
+  color: $gray;
+  display: block;
+  text-align: center;
+  overflow: hidden;
 }

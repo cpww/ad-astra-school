@@ -40,7 +40,7 @@
       </header>
 
       {.section collection}
-        <section class="hero space">
+        <section class="hero">
           <div class="stars"></div>
           <div class="stars"></div>
           <div class="stars"></div>
@@ -65,12 +65,12 @@
       {.end}
 
       <!-- Featured  Hero Quote -->
-      <blockquote class="hero-quote">
+      <blockquote class="hero-quote mb4">
         <p>“With first principles you boil things down to the most fundamental truths and then reason up from there.” <cite>&ndash; Elon Musk</cite></p>
       </blockquote>
 
       <!--Content injection point.-->
-      <main id="content" class="content clearfix overflow-hidden max-width-4 mx-auto" role="main" data-content-field="main-content">
+      <main id="content" class="main-content clearfix overflow-hidden" role="main" data-content-field="main-content">
         {squarespace.main-content}
       </main>
 
