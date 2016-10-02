@@ -1,0 +1,29 @@
+.testimonial-content {
+  @include rem(border, 1px solid $gray-light);
+  @include rem(border-radius, $border-radius-base);
+  @include rem(box-shadow, inset 0 -2px 0 $gray-light);
+  @include rem(padding, $baseline-large $gutter);
+  margin: 0;
+
+  @include breakpoint($lap-small) {
+    @include rem(margin-left, $gutter);
+    @include rem(margin-right, $gutter);
+  }
+
+  p {
+    display: none;
+  }
+
+  p.active {
+    display: block;
+  }
+}
+
+.tab-control {
+  color: $slate-dark;
+  text-decoration: none;
+
+  &:hover {
+    color: $blue;
+  }
+}
