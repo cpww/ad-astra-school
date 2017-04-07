@@ -7,7 +7,7 @@
     <!--Include sqs scripts, meta tags, and user content from the code injection tab.-->
     {squarespace-headers}
     <script   src="https://code.jquery.com/jquery-3.1.0.slim.min.js"   integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8="   crossorigin="anonymous"></script>
-    <link href="https://npmcdn.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
 
